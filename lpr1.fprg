@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Home"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-29 12:53:02 "/>
+        <attribute name="created" value="SG9tZTtERVNLVE9QLVZFMjIyRkU7MjAyMS0wNi0yOTsiMTE6NTI6NDYgIjsyNjE2"/>
+        <attribute name="edited" value="SG9tZTtERVNLVE9QLVZFMjIyRkU7MjAyMS0wNi0yOTsiMTI6NTM6MDIgIjsyOzI3MTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, media, total" type="Real" array="False" size=""/>
+            <declare name="nome" type="String" array="False" size=""/>
+            <output expression="&quot;Qual seu nome?&quot;" newline="True"/>
+            <input variable="nome"/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="total" expression="(nota1+nota2+nota3+nota4)"/>
+            <assign variable="media" expression="total/4"/>
+            <output expression="&quot;Nome: &quot;&amp; nome" newline="True"/>
+            <output expression="&quot;M&#233;dia: &quot;&amp; media" newline="True"/>
+            <output expression="&quot;Total: &quot;&amp; total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
